@@ -57,11 +57,11 @@ String otp = WebUI.getText(findTestObject('Object Repository/loginElements/optYo
 
 
 driver.switchTo().window(tabs.get(0))
-	
+
 
 WebUI.sendKeys(findTestObject('Object Repository/loginElements/optField'),otp)
 
-//WebUI.click((findTestObject('Object Repository/loginElements/rememberCheckboxField')))
+WebUI.click((findTestObject('Object Repository/loginElements/rememberCheckboxField')))
 
 
 WebUI.click((findTestObject('Object Repository/loginElements/submitOtpButton')))
@@ -69,3 +69,5 @@ WebUI.click((findTestObject('Object Repository/loginElements/submitOtpButton')))
 Thread.sleep(3000)
 
 WebUI.verifyMatch(WebUI.getUrl(), 'https://stage-txt.ad.portal.texas.gov/dashboard', false)
+
+WebUI.closeBrowser()
