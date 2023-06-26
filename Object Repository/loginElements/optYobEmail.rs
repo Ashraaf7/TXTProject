@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>optYobEmail</name>
+   <tag></tag>
+   <elementGuidId>7aa574b8-3323-4335-97c6-f615b393cb1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mail&quot;]/div/div[2]/div[2]/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td/div/p[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
